@@ -1,10 +1,17 @@
 var owl = $(".owl-carousel");
 const scrollToTop = document.querySelector("#scrollToTop");
+const nav = document.querySelector("nav");
+
 scrollToTop.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
 
 document.addEventListener("scroll", () => {
+  if (window.pageYOffset >= 150) {
+    nav.style.backgroundColor = "white";
+  } else {
+    nav.style.backgroundColor = "transparent";
+  }
   if (window.pageYOffset >= 1900) {
     scrollToTop.style.display = "block";
   } else {

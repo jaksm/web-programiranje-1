@@ -8,6 +8,10 @@
   display: none !important;
 }
 
+nav {
+  transition: background-color 0.3s ease;
+}
+
 #bg1 {
   background-image: url("../assets/bg1.jpg");
 }
