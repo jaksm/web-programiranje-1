@@ -1,6 +1,11 @@
-.owl-carousel > * {
+.owl-carousel > *,
+.popup {
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.owl-dots {
+  display: none !important;
 }
 
 #bg1 {
