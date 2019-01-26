@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>NEON | Kafeterija</title>
+    <link rel="stylesheet" href="css/slajder.css" />
+    <link rel="stylesheet" href="css/slajderTema.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
       rel="stylesheet"
@@ -13,7 +15,7 @@
   </head>
   <body>
     <!-- Navigacija -->
-    <nav class="fixed w-full bg-white">
+    <nav class="fixed w-full bg-white z-50">
       <div class="container mx-auto py-8">
         <div class="flex justify-between items-center">
           <a
@@ -44,21 +46,53 @@
       </div>
     </nav>
     <!-- Slajder -->
-    <section class="text-orange-darker">
-      <div class="container mx-auto">
-        <div class="flex flex-col justify-center items-start min-h-screen">
-          <h1 class="text-5xl">Perfektno mesto za rad.</h1>
-          <h2 class="text-xl tracking-wide text-grey-dark">
-            Najbolji esspresso, konferencijske sale i mirna atmosfera
-          </h2>
-          <a
-            href="#"
-            class="no-underline text-orange-darker border-2 border-orange-darker px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
-            >Pogledaj galeriju</a
-          >
+    <header class="owl-carousel owl-theme">
+      <section class="text-orange-darker" id="bg1">
+        <div class="container mx-auto">
+          <div class="flex flex-col justify-center items-start min-h-screen">
+            <h1 class="text-5xl">Perfektno mesto za rad.</h1>
+            <h2 class="text-xl tracking-wide text-grey-dark">
+              Najbolji esspresso, konferencijske sale i mirna atmosfera
+            </h2>
+            <a
+              href="#"
+              class="no-underline text-orange-darker border-2 border-orange-darker px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
+              >Pogledaj galeriju</a
+            >
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="text-orange-darker" id="bg2">
+        <div class="container mx-auto">
+          <div class="flex flex-col justify-center items-start min-h-screen">
+            <h1 class="text-5xl">Perfektno mesto za chill.</h1>
+            <h2 class="text-xl tracking-wide text-grey-dark">
+              Najbolji esspresso, konferencijske sale i mirna atmosfera
+            </h2>
+            <a
+              href="#"
+              class="no-underline text-orange-darker border-2 border-orange-darker px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
+              >Pogledaj galeriju</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="text-orange-darker" id="bg3">
+        <div class="container mx-auto">
+          <div class="flex flex-col justify-center items-start min-h-screen">
+            <h1 class="text-5xl">Perfektno mesto za picke.</h1>
+            <h2 class="text-xl tracking-wide text-grey-dark">
+              Najbolji esspresso, konferencijske sale i mirna atmosfera
+            </h2>
+            <a
+              href="#"
+              class="no-underline text-orange-darker border-2 border-orange-darker px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
+              >Pogledaj galeriju</a
+            >
+          </div>
+        </div>
+      </section>
+    </header>
     <!-- Galerija -->
     <section id="galerija">
       <div class="flex flex-wrap">
@@ -257,6 +291,12 @@
         <h5>Jakša Mališić, Visoka ICT 2019.</h5>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slajder.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
