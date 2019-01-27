@@ -7,6 +7,8 @@ forma.addEventListener("submit", e => {
   const isPhone = new RegExp(
     /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
   );
+  const isString = new RegExp(/^[a-zA-Z\x00-\x7F]+$/i);
+
   const formData = new FormData(forma);
   const data = {
     ime: formData.get("ime"),
@@ -19,6 +21,9 @@ forma.addEventListener("submit", e => {
   // Error checkz
   Object.keys(data).forEach(key => {
     value = data[key];
+    if (!isString.test(value)) {
+      errors[key] = `${key} nije ispravno`;
+    }
     if (key !== "poruka") {
       if (value === "" || value === null || value === undefined) {
         errors[key] = `${key} ne sme biti prazno`;
