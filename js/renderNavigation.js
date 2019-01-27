@@ -6,7 +6,7 @@ const topNavLink = (href, text) => `
 <li>
   <a
     href="${href}"
-    class="h-full px-4 no-underline text-orange-darker uppercase tracking-wide font-bold text-sm"
+    class="h-full px-4 no-underline text-white uppercase tracking-wide font-bold text-sm hover:text-orange-light"
   >
   ${text}
   </a>

@@ -14,12 +14,24 @@ nav {
 
 #bg1 {
   background-image: url("../assets/bg1.jpg");
+  background-size: cover;
 }
 
 #bg2 {
   background-image: url("../assets/bg2.jpg");
+  background-size: cover;
 }
 
 #bg3 {
   background-image: url("../assets/bg3.jpg");
+  background-size: cover;
+}
+
+.logo {
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 75px;
 }
