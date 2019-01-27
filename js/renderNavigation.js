@@ -23,7 +23,7 @@ const botNavLink = (href, text) => `
 </li>
 `;
 
-fetch("/data/links.json")
+fetch("https://jaksm.github.io/web-programinranje/data/links.json")
   .then(res => res.json())
   .then(links => {
     const { navigation, misc } = links;
