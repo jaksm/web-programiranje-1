@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+    <loc>https://jaksm.github.io/web-programiranje-1/index.html</loc>
+    <lastmod>2019-01-27T13:48:37+00:00</lastmod>
+		<changefreq>never</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+    <loc>https://jaksm.github.io/web-programiranje-1/rezervacije.html</loc>
+    <lastmod>2019-01-27T13:48:37+00:00</lastmod>
+		<changefreq>never</changefreq>
+		<priority>0.9</priority>
+	</url>
+</urlset>
