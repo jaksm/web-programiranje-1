@@ -2,15 +2,15 @@
   "navigation": [
     {
       "text": "Galerija",
-      "href": "#galerija"
+      "href": "/index.html#galerija"
     },
     {
       "text": "O Nama",
-      "href": "#onama"
+      "href": "/index.html#onama"
     },
     {
       "text": "Usluge",
-      "href": "#usluge"
+      "href": "/index.html#usluge"
     },
     {
       "text": "Rezervacije",
@@ -20,7 +20,7 @@
   "misc": [
     {
       "text": "Autor",
-      "href": "/autor.html"
+      "href": "https://github.com/jaksm"
     },
     {
       "text": "Dokumentacija",
