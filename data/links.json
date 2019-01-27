@@ -24,7 +24,15 @@
     },
     {
       "text": "Dokumentacija",
-      "href": "./dokumentacija.html"
+      "href": "./Dokumentacija.pdf"
+    },
+    {
+      "text": "Sitemap",
+      "href": "./sitemap.xml"
+    },
+    {
+      "text": "RSS",
+      "href": "./rss.xml"
     }
   ]
 }
