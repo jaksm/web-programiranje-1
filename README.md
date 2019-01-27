@@ -2,4 +2,4 @@
 
 ## Sajt je hostovan na:
 
-https://jaksm.github.io/web-programinranje/
+https://jaksm.github.io/web-programiranje-1/
