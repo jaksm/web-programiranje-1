@@ -4,6 +4,7 @@ const nav = document.querySelector("nav");
 const navigacija = document.querySelector("#navigacija");
 const botNav = document.querySelector("#botNav");
 const botNavMisc = document.querySelector("#botNavMisc");
+const galerija = document.querySelector("#galerija");
 
 scrollToTop.addEventListener("click", () => {
   window.scrollTo(0, 0);
@@ -31,6 +32,15 @@ const botNavLink = (href, text) => `
 </li>
 `;
 
+const galleryImage = (srcXs, srcLg) => `
+<a
+href="${srcXs}"
+style="background-image: url('${srcLg}');"
+class="popup w-1/4 h-64 flex flex-column items-center justify-center"
+>
+</a>
+`;
+
 fetch("/data/links.json")
   .then(res => res.json())
   .then(links => {
@@ -50,6 +60,14 @@ fetch("/data/links.json")
     navigacija.innerHTML = navigacijaMarkup;
     botNav.innerHTML = botNavMarkup;
     botNavMisc.innerHTML = miscMarkup;
+  });
+
+fetch("/data/galerija.json")
+  .then(res => res.json())
+  .then(res => res.images)
+  .then(images => {
+    const gallery = images.map(src => galleryImage(src, src)).join(" ");
+    galerija.innerHTML = gallery;
   });
 
 document.addEventListener("scroll", () => {
