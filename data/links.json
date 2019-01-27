@@ -2,29 +2,29 @@
   "navigation": [
     {
       "text": "Galerija",
-      "href": "/index.html#galerija"
+      "href": "./index.html#galerija"
     },
     {
       "text": "O Nama",
-      "href": "/index.html#onama"
+      "href": "./index.html#onama"
     },
     {
       "text": "Usluge",
-      "href": "/index.html#usluge"
+      "href": "./index.html#usluge"
     },
     {
       "text": "Rezervacije",
-      "href": "/rezervacije.html"
+      "href": "./rezervacije.html"
     }
   ],
   "misc": [
     {
       "text": "Autor",
-      "href": "https://github.com/jaksm"
+      "href": "./OAutoru.html"
     },
     {
       "text": "Dokumentacija",
-      "href": "/dokumentacija.html"
+      "href": "./dokumentacija.html"
     }
   ]
 }
