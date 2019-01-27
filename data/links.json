@@ -1,0 +1,30 @@
+{
+  "navigation": [
+    {
+      "text": "Galerija",
+      "href": "#galerija"
+    },
+    {
+      "text": "O Nama",
+      "href": "#onama"
+    },
+    {
+      "text": "Usluge",
+      "href": "#usluge"
+    },
+    {
+      "text": "Rezervacije",
+      "href": "/rezervacije.html"
+    }
+  ],
+  "misc": [
+    {
+      "text": "Autor",
+      "href": "/autor.html"
+    },
+    {
+      "text": "Dokumentacija",
+      "href": "/dokumentacija.html"
+    }
+  ]
+}
