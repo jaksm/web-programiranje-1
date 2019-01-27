@@ -6,7 +6,7 @@ const topNavLink = (href, text) => `
 <li>
   <a
     href="${href}"
-    class="h-full px-4 no-underline text-white uppercase tracking-wide font-bold text-sm hover:text-orange-light"
+    class="h-full px-4 no-underline text-white uppercase tracking-wide font-bold text-sm hover:text-orange-darker"
   >
   ${text}
   </a>
@@ -42,4 +42,5 @@ fetch("/data/links.json")
     navigacija.innerHTML = navigacijaMarkup;
     botNav.innerHTML = botNavMarkup;
     botNavMisc.innerHTML = miscMarkup;
+    $("a").smoothScroll();
   });

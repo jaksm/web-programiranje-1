@@ -15,4 +15,8 @@ fetch("/data/galerija.json")
   .then(images => {
     const gallery = images.map(src => galleryImage(src, src)).join(" ");
     galerija.innerHTML = gallery;
+    $(".popup").magnificPopup({
+      type: "image"
+      // other options
+    });
   });

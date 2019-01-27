@@ -20,7 +20,7 @@
       id="scrollToTop"
       class="bg-orange-dark shadow-lg p-6 fixed pin-b pin-r z-50 mr-8 mb-8 rounded hidden"
     >
-      <h5 class="text-white uppercase">Na vrh</h5>
+      <img src="assets/svg/up-arrow.svg" class="w-4"></img>
     </button>
     <!-- Navigacija -->
     <nav class="fixed w-full z-50">
@@ -46,7 +46,7 @@
               Najbolji esspresso, konferencijske sale i mirna atmosfera
             </h2>
             <a
-              href="#"
+              href="#galerija"
               class="no-underline text-orange-light border-2 border-orange-light px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
               >Pogledaj galeriju</a
             >
@@ -63,7 +63,7 @@
               Najbolji esspresso, konferencijske sale i mirna atmosfera
             </h2>
             <a
-              href="#"
+              href="#galerija"
               class="no-underline text-orange-light border-2 border-orange-light px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
               >Pogledaj galeriju</a
             >
@@ -80,7 +80,7 @@
               Najbolji esspresso, konferencijske sale i mirna atmosfera
             </h2>
             <a
-              href="#"
+              href="#galerija"
               class="no-underline text-orange-light border-2 border-orange-light px-12 py-4 uppercase tracking-wide font-bold text-sm mt-8"
               >Pogledaj galeriju</a
             >
@@ -89,8 +89,8 @@
       </section>
     </header>
     <!-- Galerija -->
-    <section id="galerija">
-      <div class="flex flex-wrap"><!-- Dinamicke slike --></div>
+    <section id="galerija" class="flex flex-wrap">
+      <!-- Dinamicke slike -->
     </section>
     <!-- O nama -->
     <section id="onama">
@@ -99,14 +99,29 @@
           <div class="w-1/2">
             <h1 class="text-4xl mb-12">Zašto mi?</h1>
             <p class="tracking-wide text-grey-darker">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
-              doloribus qui aliquid temporibus exercitationem cumque dolor quam
-              delectus sapiente dolorum eum iure, et inventore obcaecati
-              ratione, labore voluptas sunt voluptatibus. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Ex magnam expedita alias
-              consequuntur aliquam ipsa provident delectus unde exercitationem
-              molestiae ea ipsam iure nemo rem vero tempore quod, corrupti a!
+              Pre nego što dođe do vašeg stola, naša kafa prolazi dugačak put.
+              Od plantaže u najudaljenijim krajevima sveta, preko ruku farmera i
+              berača plodova, do prženja i najfinijeg mlevenja u našim
+              mlinovima, a ipak, svaka šoljica znači tek jedan novi početak
+              uživanja u danu pred nama. Iako veoma mlad brend, za manje od tri
+              godine dokazanim kvalitetom i konstantnim inovacijama postali smo
+              jedan od najbrže rastućih lanaca kafeterija u Srbiji, koji u svom
+              asortimanu za sada nudi više od 15 jedinstvenih vrsta kafa sa svih
+              strana sveta, među kojima su i veoma retki ukusi, ekskluzivni u
+              ovom delu Evrope. Gosti Kafeterije se svakog jutra mogu razbuditi
+              uz ukuse Indija ili Brazil espresa, poboljšati produktivnost uz
+              ukuse Kolumbije, Kenije ili Etiopije, uživati u specijalno
+              pripremljenim blendovima ili završiti dan uz bezkofeinske napitke.
             </p>
+            <small class="text-xs"
+              >Primer sadrzaja je preuzet sa
+              <a
+                href="https://www.kafeterija.com/o-nama/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >https://www.kafeterija.com/o-nama/</a
+              ></small
+            >
           </div>
         </div>
       </div>
@@ -115,33 +130,35 @@
     <section id="usluge">
       <div class="container mx-auto text-orange-darker">
         <div class="py-32">
-          <h2 class="text-4xl mb-12">Šta nudimo?</h2>
+          <h2 class="text-4xl">Šta nudimo?</h2>
 
-          <div class="flex items-center justify-between">
+          <div class="flex items-center justify-between mt-32">
             <div class="w-1/4">
               <div class="flex flex-col items-center justify-center">
-                <div class="bg-orange-darker w-full h-48"></div>
-                <h3 class="text-xl mb-4 mt-12">Usluga 1</h3>
-                <h5 class="text-base text-grey-darker">
-                  Lorem ipsum dolor sit amet.
+                <img src="assets/svg/service1.svg" class="w-1/2"></img>
+                <h3 class="text-xl mb-4 mt-12">Premium kafa</h3>
+                <h5 class="text-base text-grey-darker text-center">
+                  Koristimo samo najbolju italijansku kafu
                 </h5>
               </div>
             </div>
             <div class="w-1/4">
               <div class="flex flex-col items-center justify-center">
-                <div class="bg-orange-darker w-full h-48"></div>
-                <h3 class="text-xl mb-4 mt-12">Usluga 1</h3>
-                <h5 class="text-base text-grey-darker">
-                  Lorem ipsum dolor sit amet.
+                <img src="assets/svg/service2.svg" class="w-1/2"></img>
+                <h3 class="text-xl mb-4 mt-12">Udobnost +</h3>
+                <h5 class="text-base text-grey-darker text-center">
+                  Radite u komforu koji zasluzujete
                 </h5>
               </div>
             </div>
             <div class="w-1/4">
-              <div class="flex flex-col items-center justify-center">
-                <div class="bg-orange-darker w-full h-48"></div>
-                <h3 class="text-xl mb-4 mt-12">Usluga 1</h3>
+              <div
+                class="flex flex-col items-center justify-center text-center"
+              >
+                <img src="assets/svg/service3.svg" class="w-1/2"></img>
+                <h3 class="text-xl mb-4 mt-12">Brza usluga</h3>
                 <h5 class="text-base text-grey-darker">
-                  Lorem ipsum dolor sit amet.
+                  Kod nas necete cekati vise od dva minuta
                 </h5>
               </div>
             </div>
@@ -159,7 +176,9 @@
           <ul class="list-reset" id="botNavMisc">
             <!-- Dinamicki linkovi -->
           </ul>
-          <div class="bg-white h-64 w-1/4"></div>
+          <div class="h-64 w-1/4">
+            <img src="assets/logo.png">
+          </div>
         </div>
       </div>
       <div class="bg-black text-white text-center py-8">

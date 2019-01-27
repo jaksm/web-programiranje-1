@@ -9,10 +9,12 @@ scrollToTop.addEventListener("click", () => {
 document.addEventListener("scroll", () => {
   if (window.pageYOffset >= 150) {
     nav.style.backgroundColor = "#FAAD63";
+    nav.style.opacity = ".8";
     nav.style.boxShadow =
       "0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);";
   } else {
     nav.style.backgroundColor = "transparent";
+    nav.style.opacity = "1";
     nav.style.boxShadow = "none";
   }
   if (window.pageYOffset >= 1900) {
@@ -37,8 +39,3 @@ $(".play").on("click", function() {
 $(".stop").on("click", function() {
   owl.trigger("stop.owl.autoplay");
 });
-$(".popup").magnificPopup({
-  type: "image"
-  // other options
-});
-$("a").smoothScroll();
