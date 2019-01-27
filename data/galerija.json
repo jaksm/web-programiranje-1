@@ -1,12 +1,12 @@
 {
   "images": [
-    "/assets/galerija/img1.jpg",
-    "/assets/galerija/img2.jpg",
-    "/assets/galerija/img3.jpg",
-    "/assets/galerija/img4.jpg",
-    "/assets/galerija/img5.jpg",
-    "/assets/galerija/img6.jpg",
-    "/assets/galerija/img7.jpg",
-    "/assets/galerija/img8.jpg"
+    "assets/galerija/img1.jpg",
+    "assets/galerija/img2.jpg",
+    "assets/galerija/img3.jpg",
+    "assets/galerija/img4.jpg",
+    "assets/galerija/img5.jpg",
+    "assets/galerija/img6.jpg",
+    "assets/galerija/img7.jpg",
+    "assets/galerija/img8.jpg"
   ]
 }
