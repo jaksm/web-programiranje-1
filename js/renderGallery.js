@@ -9,7 +9,7 @@ class="popup w-1/4 h-64 flex flex-column items-center justify-center"
 </a>
 `;
 
-fetch("https://jaksm.github.io/web-programinranje/data/galerija.json")
+fetch("https://jaksm.github.io/web-programiranje-1/data/galerija.json")
   .then(res => res.json())
   .then(res => res.images)
   .then(images => {
