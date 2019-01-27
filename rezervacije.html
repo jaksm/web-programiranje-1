@@ -35,61 +35,65 @@
     </nav>
     <section id="rezervacionaforma">
       <div class="container mx-auto">
-        <div class="flex items-center min-h-screen">
+        <div class="flex items-center justify-center min-h-screen">
           <form id="rezervacijeForma">
-            <fieldset class="flex flex-col">
-              <label
-                for="ime"
-                class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
-                >Ime</label
-              >
-              <input
-                required
-                type="text"
-                name="ime"
-                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
-              />
-            </fieldset>
-            <fieldset class="flex flex-col">
-              <label
-                for="prezime"
-                class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
-                >prezime</label
-              >
-              <input
-                required
-                type="text"
-                name="prezime"
-                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
-              />
-            </fieldset>
-            <fieldset class="flex flex-col">
-              <label
-                for="brojMesta"
-                class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
-                >Broj Mesta</label
-              >
-              <input
-                required
-                type="number"
-                name="brojMesta"
-                min="1"
-                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
-              />
-            </fieldset>
-            <fieldset class="flex flex-col">
-              <label
-                for="tel"
-                class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
-                >Telefon</label
-              >
-              <input
-                required
-                type="tel"
-                name="tel"
-                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
-              />
-            </fieldset>
+            <div class="flex">
+              <fieldset class="flex flex-col">
+                <label
+                  for="ime"
+                  class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
+                  >Ime</label
+                >
+                <input
+                  required
+                  type="text"
+                  name="ime"
+                  class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
+                />
+              </fieldset>
+              <fieldset class="flex flex-col ml-4">
+                <label
+                  for="prezime"
+                  class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
+                  >prezime</label
+                >
+                <input
+                  required
+                  type="text"
+                  name="prezime"
+                  class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
+                />
+              </fieldset>
+            </div>
+            <div class="flex">
+              <fieldset class="flex flex-col">
+                <label
+                  for="brojMesta"
+                  class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
+                  >Broj Mesta</label
+                >
+                <input
+                  required
+                  type="number"
+                  name="brojMesta"
+                  min="1"
+                  class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
+                />
+              </fieldset>
+              <fieldset class="flex flex-col ml-4">
+                <label
+                  for="tel"
+                  class="text-orange-darker uppercase tracking-wide font-bold text-sm mb-2"
+                  >Telefon</label
+                >
+                <input
+                  required
+                  type="tel"
+                  name="tel"
+                  class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
+                />
+              </fieldset>
+            </div>
             <fieldset class="flex flex-col">
               <label
                 for="poruka"
@@ -101,7 +105,7 @@
                 name="poruka"
                 cols="30"
                 rows="10"
-                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2"
+                class="p-4 border-2 border-orange-darker text-grey-darker tracking-wide font-bold text-sm mb-2 w-full"
               ></textarea>
             </fieldset>
             <button
@@ -139,6 +143,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/slajder.js"></script>
     <script src="js/rezervacije.js"></script>
+    <script src="js/renderNavigation.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
