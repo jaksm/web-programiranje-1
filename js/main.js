@@ -38,3 +38,4 @@ $(".popup").magnificPopup({
   type: "image"
   // other options
 });
+$("a").smoothScroll();
