@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="fixed w-full">
+    <!-- Scroll to top -->
+    <button
+      id="scrollToTop"
+      class="bg-orange-dark shadow-lg p-6 fixed pin-b pin-r z-50 mr-8 mb-8 rounded hidden"
+    >
+      <h5 class="text-white uppercase">Na vrh</h5>
+    </button>
+    <nav class="fixed w-full z-50">
       <div class="container mx-auto py-8">
         <div class="flex justify-between items-center">
           <a
@@ -20,24 +27,8 @@
             class="text-3xl text-orange-darker font-bold uppercase no-underline"
             >Neon</a
           >
-          <ul class="list-reset flex">
-            <li>
-              <a
-                href="#"
-                class="h-full px-4 no-underline text-orange-darker uppercase tracking-wide font-bold text-sm"
-                >Home</a
-              >
-              <a
-                href="#"
-                class="h-full px-4 no-underline text-orange-darker uppercase tracking-wide font-bold text-sm"
-                >About</a
-              >
-              <a
-                href="#"
-                class="h-full px-4 no-underline text-orange-darker uppercase tracking-wide font-bold text-sm"
-                >Contact</a
-              >
-            </li>
+          <ul class="list-reset flex" id="navigacija">
+            <!-- Dinamicki linkovi -->
           </ul>
         </div>
       </div>
@@ -109,76 +100,27 @@
     <footer class="bg-orange-darker text-white">
       <div class="container mx-auto py-32">
         <div class="flex justify-between">
-          <ul class="list-reset">
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
+          <ul class="list-reset" id="botNav">
+            <!-- Dinamicki linkovi -->
           </ul>
-          <ul class="list-reset">
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
-            <li class="my-8">
-              <a
-                href="#"
-                class="text-base text-white font-bold uppercase no-underline"
-                >Lolara</a
-              >
-            </li>
+          <ul class="list-reset" id="botNavMisc">
+            <!-- Dinamicki linkovi -->
           </ul>
-
           <div class="bg-white h-64 w-1/4"></div>
         </div>
       </div>
-
       <div class="bg-black text-white text-center py-8">
         <h5>Jakša Mališić, Visoka ICT 2019.</h5>
       </div>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/slajder.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/rezervacije.js"></script>
   </body>
 </html>
